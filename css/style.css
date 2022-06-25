@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  background-color: #777 !important;
+}
+/* common styles */
+a {
+  text-decoration: none;
+  color: #ccc !important;
+}
+code {
+  color: #0dcaf0 !important;
+  font-size: 19px !important;
+}
+/* Nav Desgin */
+nav {
+  opacity: 0.8;
+  padding: 0.2rem 1rem !important;
+}
+nav li {
+  text-transform: capitalize;
+}
+.word {
+  padding-right: 10px;
+  font-weight: bold;
+  border-right: 1px solid rgb(204, 204, 204);
+  transition: 0.3s;
+}
+.word:hover {
+  text-shadow: 8px 10px 15px white, -8px -10px 15px white;
+}
+.dropdown div {
+  background: transparent;
+}
+.dropdown-menu a {
+  color: rgb(204, 204, 204);
+  text-shadow: 1px 1px #000;
+}
+.dropdown-menu a:hover {
+  background-color: #e9ecef;
+}
+nav form .form-control {
+  opacity: 0.8;
+}
+
+/* Form Desgin */
+
+.modal h5 {
+  color: #777;
+}
+/* Form Desgin End */
+/* *************************************************End of Nav ********************************** */
+
+/* Carousel */
+.carousel-inner .carousel-caption {
+  background-color: rgba(206, 203, 203, 0.322);
+  border-radius: 5px;
+}
+/* Carousel End */
+
+/* coding section */
+.card-title {
+  font-size: 23px;
+}
+.coding .card a {
+  text-decoration: underline;
+}
+.bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+  border-bottom: 5px solid #1d4a61 !important;
+}
+
+.tooltip-inner {
+  color: white;
+  font-style: italic;
+  background-color: #245973 !important;
+  border-radius: 5px;
+}
+
+/* ============================================ */
+.bg-fixed .background,
+.bg-fixed .background1 {
+  height: 300px;
+  background-attachment: fixed;
+}
+.bg-fixed .background {
+  background-image: url(/images/bg.jpg);
+}
+.bg-fixed1 .background1 {
+  background-image: url(/images/fixed.jpg);
+}
+.courses .row {
+  background-color: #555555;
+}
+.team .card-body h5 {
+  font-size: 20px;
+}
+.join-us span i {
+  background-color: #fff;
+
+  color: red;
+  margin: auto;
+}
+footer .content i {
+  font-size: 30px;
+  margin-right: 10px;
+}
+footer .content span {
+  font-size: 20px;
+  font-weight: bold;
+}
+footer .content ul li a {
+  text-decoration: none;
+  color: #fff !important;
+}
+footer .content ul li a:hover {
+  text-decoration: underline;
+}
+footer .content ul li {
+  margin-bottom: 1rem;
+}
